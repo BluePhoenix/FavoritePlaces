@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE9E9B0C1C23B753009AE01E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E9B0B1C23B753009AE01E /* DetailViewController.swift */; };
 		CEA3C0AC1C2397EB00F5602D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3C0AB1C2397EB00F5602D /* AppDelegate.swift */; };
 		CEA3C0AE1C2397EB00F5602D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3C0AD1C2397EB00F5602D /* ViewController.swift */; };
 		CEA3C0B11C2397EB00F5602D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA3C0AF1C2397EB00F5602D /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE9E9B0B1C23B753009AE01E /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		CEA3C0A81C2397EB00F5602D /* FavoritePlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoritePlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA3C0AB1C2397EB00F5602D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEA3C0AD1C2397EB00F5602D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				CEA3C0B21C2397EB00F5602D /* Assets.xcassets */,
 				CEA3C0B41C2397EB00F5602D /* LaunchScreen.storyboard */,
 				CEA3C0B71C2397EB00F5602D /* Info.plist */,
+				CE9E9B0B1C23B753009AE01E /* DetailViewController.swift */,
 			);
 			path = FavoritePlaces;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9E9B0C1C23B753009AE01E /* DetailViewController.swift in Sources */,
 				CEA3C0AE1C2397EB00F5602D /* ViewController.swift in Sources */,
 				CEA3C0AC1C2397EB00F5602D /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +488,7 @@
 				CEA3C0D21C2397EB00F5602D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEA3C0D31C2397EB00F5602D /* Build configuration list for PBXNativeTarget "FavoritePlacesTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				CEA3C0D51C2397EB00F5602D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEA3C0D61C2397EB00F5602D /* Build configuration list for PBXNativeTarget "FavoritePlacesUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				CEA3C0D81C2397EB00F5602D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
