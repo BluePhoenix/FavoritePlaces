@@ -149,6 +149,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="findOutMoreButton" destination="hoa-xB-FhQ" id="Apx-An-Btg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
