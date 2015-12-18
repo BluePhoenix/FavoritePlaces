@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "yucca2.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "yucca2-1.jpg",
       "scale" : "2x"
     },
     {
